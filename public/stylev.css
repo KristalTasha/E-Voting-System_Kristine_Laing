@@ -1,0 +1,322 @@
+.sidebar{
+    position: absolute;
+    z-index: 10;
+    width:30%;
+    height: 1500px;
+    background-color: #CDD3FF;
+    padding-top: 0;
+}
+
+.cand1{
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    width: 70%;
+    height: 15%;
+    background-color: #718CFF;
+    border-color: #718CFF;
+    border-collapse: separate;
+    border-spacing: 500px;
+    border-radius:10px;  
+}
+
+
+.cand2{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+  /*  width: 240px;
+    height: 60px;  */
+    width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-collapse: separate;
+    border-spacing:0 500px;
+    border-radius:10px;
+    
+}
+
+.cand3{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    font-size: 13px;
+   width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-collapse: separate;
+    border-spacing:0 500px;
+    border-radius:10px;
+    
+}
+
+.cand4{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    font-size: 13px;
+     width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-radius:10px;
+    border-collapse: separate;
+    border-spacing: 100px;
+    
+}
+
+.cand5{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    font-size: 13px;
+     width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-radius:10px;
+    border-collapse: separate;
+    border-spacing: 100px;
+    
+}
+.cand6{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    font-size: 13px;
+     width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-radius:10px;
+    border-collapse: separate;
+    border-spacing: 200px;
+    
+}
+
+.cand7{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    font-size: 13px;
+     width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-radius:10px;
+    border-collapse: separate;
+    border-spacing: 200px;
+    
+}
+
+.cand8{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-collapse: separate;
+    border-spacing:0 500px;
+    border-radius:10px;
+}
+
+.cand9{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+     width: 70%;
+    height: 15%;
+    background-color: azure;
+    border-color: azure;
+    border-collapse: separate;
+    border-spacing:0 500px;
+    border-radius:10px;
+
+}
+
+.topbanner{
+    z-index:9;
+    float: right;
+    overflow: hidden;
+  /*  width: 910px;  */
+    height: 50px;
+    width: 100%;
+    background-color: royalblue;
+}
+
+.profile{
+    position: absolute;
+    float: right;
+    right:20px;
+    top:15px;
+    background-color: #79B6FF;
+    height: 34px;
+    width: 114px;    
+    border-radius: 13px;
+
+}
+
+.cand1pic{
+    display: block;
+   position: absolute;
+    z-index: 1;
+   /* top:150px;
+    left: 550px; */
+    top: 25%;
+    left: 40%;
+    background-color: white;
+    height: 250px;
+    width:200px;
+    border-radius: 8px;
+    
+}
+
+
+.vote1{
+   display: none;
+    position: absolute;
+    width: 200px;
+    height: 267px;
+    z-index: 2;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 8px;
+      
+}
+
+
+.cand1pic:hover + .vote1{
+     top: 25%;
+    left: 40%;
+    display: block;
+      
+} 
+
+
+
+.cand2pic{
+    display: block;
+   position: absolute;
+    z-index: 3;
+    top: 25%;
+    left: 65%;
+    background-color: white;
+    height: 250px;
+    width:200px;
+    border-radius: 8px;
+    
+}
+
+.vote2{
+   display: none;
+    position: absolute;
+    width: 200px;
+    height: 267px;
+    z-index: 4;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 8px;     
+}
+
+
+.cand2pic:hover + .vote2{
+   top: 25%;
+    left: 65%;
+    display: block;     
+}
+
+.cand3pic{
+    display: block;
+   position: absolute;
+    z-index: 5;
+    top:80%;
+    left: 40%;
+    background-color: white;
+    height: 250px;
+    width:200px;
+    border-radius: 8px;  
+}
+
+.vote3{
+   display: none;
+    position: absolute;
+    width: 200px;
+    height: 267px;
+    z-index: 6;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 8px;     
+}
+
+
+.cand3pic:hover + .vote3{
+    top:80%;
+    left: 40%;
+    display: block;    
+}
+
+
+.cand4pic{
+    display: block;
+   position: absolute;
+    z-index: 7;
+    top:80%;
+    left: 65%;
+    background-color: white;
+    height: 250px;
+    width:200px;
+    border-radius: 8px;  
+}
+
+.vote4{
+   display: none;
+    position: absolute;
+    width: 200px;
+    height: 267px;
+    z-index: 8;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 8px;     
+}
+
+
+.cand4pic:hover + .vote4{
+    top:80%;
+    left: 65%;
+    display: block;    
+}
+
+
+.votelabel{
+    z-index: 13;
+    border-radius: 10px; 
+    border-color: white;
+    border-width: 5px;
+    background-color: black;
+    opacity: 70%;
+    height: 40px;
+    width; 10px;
+}
+
+
+.foot{
+    position: absolute;
+    top: 1495px;
+    z-index:11;
+  /*  width: 910px;  */
+    height: 6%;
+    width: 100%;
+    background-color: midnightblue;
+}
